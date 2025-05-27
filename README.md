@@ -72,8 +72,6 @@ Available Component Types:
 - `model`: Creates a new data model with schema definition
 - `middleware`: Creates a new middleware function
 - `route`: Creates a new route configuration
-- `util`: Creates a new utility function
-- `config`: Creates a new configuration file
 - `test`: Creates a new test file with Jest setup
 
 Examples:
@@ -102,16 +100,6 @@ pillars add middleware cors
 pillars add route api
 pillars add route admin
 pillars add route public
-
-# Add a new utility
-pillars add util helpers
-pillars add util validators
-pillars add util constants
-
-# Add a new configuration
-pillars add config database
-pillars add config email
-pillars add config app
 
 # Add a new test
 pillars add test user
