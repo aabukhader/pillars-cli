@@ -67,43 +67,42 @@ Where:
 - `<name>`: The name of the component
 
 Available Component Types:
-- `controller`: Creates a new controller with basic CRUD operations
-- `service`: Creates a new service with business logic structure
-- `model`: Creates a new data model with schema definition
-- `middleware`: Creates a new middleware function
-- `route`: Creates a new route configuration
+- `resource` or `rs`: Creates a complete resource with model, repository, service, controller, and routes
+- `model` or `md`: Creates a new data model with schema definition
+- `repository` or `rp`: Creates a new repository for data access
+- `service` or `sv`: Creates a new service with business logic structure
+- `controller` or `ct`: Creates a new controller with basic CRUD operations
+- `route` or `r`: Creates a new route configuration
 - `test`: Creates a new test file with Jest setup
 
 Examples:
 ```bash
-# Add a new controller
-pillars add controller user
-pillars add controller auth
-pillars add controller product
-
-# Add a new service
-pillars add service user
-pillars add service auth
-pillars add service email
+# Add a complete resource
+pillars add resource user
+pillars add rs product
 
 # Add a new model
 pillars add model user
-pillars add model product
-pillars add model order
+pillars add md product
 
-# Add a new middleware
-pillars add middleware auth
-pillars add middleware logger
-pillars add middleware cors
+# Add a new repository
+pillars add repository user
+pillars add rp product
+
+# Add a new service
+pillars add service user
+pillars add sv product
+
+# Add a new controller
+pillars add controller user
+pillars add ct product
 
 # Add a new route
 pillars add route api
-pillars add route admin
-pillars add route public
+pillars add r admin
 
 # Add a new test
 pillars add test user
-pillars add test auth
 pillars add test product
 ```
 
