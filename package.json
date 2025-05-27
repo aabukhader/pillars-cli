@@ -13,7 +13,7 @@
   },
   "keywords": [],
   "author": "Abdalla Abukhadir <abdallhabukhader@gmail.com> (https://github.com/aabukhader/)",
-  "license": "ISC",
+  "license": "MIT",
   "description": "",
   "dependencies": {
     "commander": "^14.0.0"
