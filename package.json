@@ -12,7 +12,7 @@
     "pillars": "./bin/index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Abdalla Abukhadir <abdallhabukhader@gmail.com> (https://github.com/aabukhader/)",
   "license": "ISC",
   "description": "",
   "dependencies": {
