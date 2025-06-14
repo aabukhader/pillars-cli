@@ -14,7 +14,7 @@ A powerful Node.js project scaffolder CLI tool that helps you create and manage 
 ## Installation
 
 ```bash
-npm install -g pillars
+npm install -g pillars-cli
 ```
 
 ## Usage
