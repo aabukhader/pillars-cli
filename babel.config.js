@@ -2,7 +2,10 @@ export default {
   presets: [
     ['@babel/preset-env', { 
       targets: { node: 'current' },
-      modules: false
+      modules: 'commonjs'
     }]
+  ],
+  plugins: [
+    '@babel/plugin-transform-modules-commonjs'
   ]
 }; 

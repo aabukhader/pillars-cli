@@ -1,22 +1,44 @@
 {
   "name": "pillars-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "test": "jest",
     "test:watch": "node --experimental-vm-modules node_modules/jest/bin/jest.js --watch",
     "test:coverage": "node --experimental-vm-modules node_modules/jest/bin/jest.js --coverage"
   },
   "bin": {
     "pillars": "./bin/index.js"
   },
-  "keywords": [],
+  "keywords": [
+    "cli",
+    "scaffold",
+    "generator",
+    "node",
+    "typescript",
+    "javascript",
+    "express",
+    "boilerplate",
+    "project-template"
+  ],
   "author": "Abdalla Abukhadir <abdallhabukhader@gmail.com> (https://github.com/aabukhader/)",
   "license": "MIT",
-  "description": "",
+  "description": "A powerful Node.js project scaffolder CLI tool that helps you create and manage Node.js projects with ease",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aabukhader/pillars-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aabukhader/pillars-cli/issues"
+  },
+  "homepage": "https://github.com/aabukhader/pillars-cli#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
   "dependencies": {
-    "commander": "^14.0.0"
+    "commander": "^14.0.0",
+    "uuid": "^9.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.24.0",
@@ -24,6 +46,7 @@
     "@babel/preset-env": "^7.24.0",
     "@jest/globals": "^29.7.0",
     "babel-jest": "^29.7.0",
+    "execa": "^9.6.0",
     "jest": "^29.7.0"
   },
   "jest": {

@@ -1,5 +1,9 @@
 # Pillars CLI
 
+[![npm version](https://badge.fury.io/js/pillars-cli.svg)](https://badge.fury.io/js/pillars-cli)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Node.js CI](https://github.com/aabukhader/pillars-cli/actions/workflows/node.js.yml/badge.svg)](https://github.com/aabukhader/pillars-cli/actions/workflows/node.js.yml)
+
 A powerful Node.js project scaffolder CLI tool that helps you create and manage Node.js projects with ease.
 
 ## Features
@@ -10,6 +14,14 @@ A powerful Node.js project scaffolder CLI tool that helps you create and manage 
 - Automatic package manager detection and selection
 - Built-in test setup with Jest
 - Simple and intuitive command-line interface
+- Express.js integration out of the box
+- Environment configuration management
+- TypeScript support with proper configuration
+
+## Prerequisites
+
+- Node.js >= 14.0.0
+- npm, yarn, or pnpm
 
 ## Installation
 
@@ -171,4 +183,48 @@ MIT
 
 ## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request. 
+Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## Development
+
+To set up the development environment:
+
+```bash
+# Clone the repository
+git clone https://github.com/aabukhader/pillars-cli.git
+
+# Install dependencies
+npm install
+
+# Run tests
+npm test
+
+# Run tests in watch mode
+npm run test:watch
+
+# Check test coverage
+npm run test:coverage
+```
+
+## Changelog
+
+See [CHANGELOG.md](CHANGELOG.md) for more information.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Support
+
+If you find this project helpful, please give it a ⭐️ on [GitHub](https://github.com/aabukhader/pillars-cli)!
+
+For support, please:
+- Open an issue on GitHub
+- Check the [documentation](https://github.com/aabukhader/pillars-cli#readme)
+- Join our [Discord community](https://discord.gg/your-discord-link) (if available) 
