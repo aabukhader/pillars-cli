@@ -227,4 +227,3 @@ If you find this project helpful, please give it a ⭐️ on [GitHub](https://gi
 For support, please:
 - Open an issue on GitHub
 - Check the [documentation](https://github.com/aabukhader/pillars-cli#readme)
-- Join our [Discord community](https://discord.gg/your-discord-link) (if available) 
